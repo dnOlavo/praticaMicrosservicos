@@ -2,57 +2,57 @@
 
 <h2>Critérios de avaliação:</h2>
 
-Deve seguir a estrutura de pastas como a abaixo:
+<p>Deve seguir a estrutura de pastas como a abaixo:</p>
 
- └── user_api
- ├── controller
- │ └── UserController.java
- ├── models
- │ ├── dto
- │ │ └── UserDTO.java
- │ └── User.java
- ├── repositories
- │ └── UserRepository.java
- ├── services
- │ └── UserService.java
- └── UserApiApplication.java
+ └── user_api<br>
+ ├── controller<br>
+ │ └── UserController.java<br>
+ ├── models<br>
+ │ ├── dto<br>
+ │ │ └── UserDTO.java<br>
+ │ └── User.java<br>
+ ├── repositories<br>
+ │ └── UserRepository.java<br>
+ ├── services<br>
+ │ └── UserService.java<br>
+ └── UserApiApplication.java<br>
 
-Endpoitnts user-api (aula 04):
-/user
-POST user
-GET all users
-GET findById
-GET findByCPF
-GET search by name
-GET pageable
-PATCH/PUT user
-DELETE user by id
+<p>Endpoitnts user-api (aula 04):</p>
+/user<br>
+POST user<br>
+GET all users<br>
+GET findById<br>
+GET findByCPF<br>
+GET search by name<br>
+GET pageable<br>
+PATCH/PUT user<br>
+DELETE user by id<br>
 
-Endpoints product-api (aula 09):
-/category
-GET all
-POST
-PUT /{id}
-DELETE /{id}
-GET /pageable
+<p>Endpoints product-api (aula 09):</p>
+/category<br>
+GET all<br>
+POST<br>
+PUT /{id}<br>
+DELETE /{id}<br>
+GET /pageable<br>
 
 /product
-GET getAll
-GET /{id}
-POST
-PUT /{id}
-DELETE /{id}
-GET /pageable
-GET /category/{categoryId}
-GET /{productIdentifier}
+GET getAll<br>
+GET /{id}<br>
+POST<br>
+PUT /{id}<br>
+DELETE /{id}<br>
+GET /pageable<br>
+GET /category/{categoryId}<br>
+GET /{productIdentifier}<br>
 
-Endpoint shopping-api (aula 09):
-/shopping
-GET getAll
-GET /{id}
-POST
-GET /shopByUser
-GET /shopByDate
-GET /{productIdentifier}
-GET /shopping/search
-GET /shopping/report
+<p>Endpoint shopping-api (aula 09):</p>
+/shopping<br>
+GET getAll<br>
+GET /{id}<br>
+POST<br>
+GET /shopByUser<br>
+GET /shopByDate<br>
+GET /{productIdentifier}<br>
+GET /shopping/search<br>
+GET /shopping/report<br>
