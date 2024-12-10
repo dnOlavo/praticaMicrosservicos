@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://admin:******@cluster0.dd3xc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: product_api
+logging:
+  level:
+    org:
+      springframework:
+        data:
+          mongodb:
+            core:
+              MongoTemplate: DEBUG
